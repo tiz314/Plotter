@@ -8,7 +8,7 @@ public class Function {
         graph = new Graph(graphSize);
     }
 
-    public String getLineEquation(Double m, Double q) {
+    public String getLineEquation(double m, double q) {
         int i, x, y;
         for (i = 0; i < graph.getGRAPH_SIZE(); i++) { // x position in array
             x = -graph.getAREA_SIZE() + i; // x position in mathematical graph

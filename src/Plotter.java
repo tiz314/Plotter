@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Plotter {
 
     public static void main(String[] args) {
-        Boolean check = true;
+        boolean check = true;
         Scanner scanner = new Scanner(System.in);
 
         int size = 10; // Default graph size
